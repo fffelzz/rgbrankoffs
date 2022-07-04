@@ -1,0 +1,27 @@
+    _G.on = 0
+    while _G.on == 1
+    do
+
+        game.ReplicatedStorage.RemoteEvent:FireServer({"ChangeRankEmblem",1})
+        wait(0.5)
+        game.ReplicatedStorage.RemoteEvent:FireServer({"ChangeRankEmblem",2})
+        wait(0.5)
+        game.ReplicatedStorage.RemoteEvent:FireServer({"ChangeRankEmblem",3})
+        wait(0.5)
+        game.ReplicatedStorage.RemoteEvent:FireServer({"ChangeRankEmblem",4})
+        wait(0.5)
+        game.ReplicatedStorage.RemoteEvent:FireServer({"ChangeRankEmblem",5})
+        wait(0.5)
+        game.ReplicatedStorage.RemoteEvent:FireServer({"ChangeRankEmblem",6})
+        wait(0,5)
+        game.ReplicatedStorage.RemoteEvent:FireServer({"ChangeRankEmblem",7})
+        wait(0.5)
+        game.ReplicatedStorage.RemoteEvent:FireServer({"ChangeRankEmblem",8})
+        wait(0.5)
+        game.ReplicatedStorage.RemoteEvent:FireServer({"ChangeRankEmblem",9})
+        wait(0.5)
+        game.ReplicatedStorage.RemoteEvent:FireServer({"ChangeRankEmblem",10})
+        wait(0.5)
+    
+    end
+    
